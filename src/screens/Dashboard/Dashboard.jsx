@@ -8,6 +8,7 @@ import {
 import Page from '../../components/Page'
 import StackedBar from './StackedBar';
 import Donut from './Donut';
+import FiscalYear from './FiscalYear';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -27,53 +28,23 @@ const Dashboard = () => {
       title="Navis Dashboard"
     >
       <Container maxWidth={false}>
-        <Grid
-          container
-          spacing={3}
-        >
-          <Grid
-            item
-            lg={6}
-            sm={6}
-            xl={3}
-            xs={12}
-          >
+        <Grid container spacing={3} >
+          <Grid  item lg={12} md={12} xl={12} xs={12} >
+            <FiscalYear />
+          </Grid>
+          <Grid item lg={6} sm={6}  xl={3} xs={12} >
             <Donut />
           </Grid>
-          <Grid
-            item
-            lg={3}
-            sm={6}
-            xl={3}
-            xs={12}
-          >
+          <Grid item lg={3} sm={6} xl={3} xs={12} >
             {/* <TotalCustomers /> */}
           </Grid>
-          <Grid
-            item
-            lg={3}
-            sm={6}
-            xl={3}
-            xs={12}
-          >
+          <Grid item lg={3} sm={6} xl={3} xs={12} >
             {/* <TasksProgress /> */}
           </Grid>
-          <Grid
-            item
-            lg={3}
-            sm={6}
-            xl={3}
-            xs={12}
-          >
+          <Grid item lg={3} sm={6} xl={3} xs={12} >
             {/* <TotalProfit /> */}
           </Grid>
-          <Grid
-            item
-            lg={12}
-            md={12}
-            xl={12}
-            xs={12}
-          >
+          <Grid  item lg={12} md={12} xl={12} xs={12} >
             <StackedBar />
           </Grid>
           <Grid
