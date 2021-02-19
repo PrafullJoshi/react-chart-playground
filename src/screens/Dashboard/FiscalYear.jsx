@@ -47,7 +47,7 @@ const FiscalYear = ({ className, ...rest }) => {
       <Divider />
       <CardContent>
         <Grid container spacing={9} >
-          <Grid container item lg={3} md={12} xl={12} xs={12} justify="flex-start">
+          <Grid container item lg={3} md={3} xl={3} xs={12} justify="flex-start">
               <Box mb={3}>
                 <Typography  color="textPrimary" variant="h2" >
                   Cumulative return
@@ -57,7 +57,7 @@ const FiscalYear = ({ className, ...rest }) => {
                 </Typography>
               </Box>
           </Grid>
-          <Grid container item lg={3} md={12} xl={12} xs={12} justify='flex-end'>
+          <Grid container item lg={3} md={3} xl={3} xs={12} justify='flex-end'>
               <Box mb={3}>
                 <Typography
                   color="textPrimary"
@@ -73,7 +73,7 @@ const FiscalYear = ({ className, ...rest }) => {
               </Box>
           </Grid>
 
-          <Grid container item lg={3} md={12} xl={12} xs={12} justify="flex-start">
+          <Grid container item lg={3} md={3} xl={3} xs={12} justify="flex-start">
               <Box mb={3}>
                 <Typography
                   color="textPrimary"
@@ -90,7 +90,7 @@ const FiscalYear = ({ className, ...rest }) => {
                 </Typography>
               </Box>
           </Grid>
-          <Grid container item lg={3} md={12} xl={12} xs={12} justify='flex-end'>
+          <Grid container item lg={3} md={3} xl={3} xs={12} justify='flex-end'>
               <Box mb={3}>
                 <Typography
                   color="textPrimary"

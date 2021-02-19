@@ -26,8 +26,8 @@ import NavItem from './NavItem';
 
 const user = {
   avatar: '/static/images/avatars/avatar_6.png',
-  jobTitle: 'Project Navis',
-  name: 'Asset Management'
+  jobTitle: 'Asset Management',
+  name: 'Project Navis'
 };
 
 const items = [

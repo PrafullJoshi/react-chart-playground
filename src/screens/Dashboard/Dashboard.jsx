@@ -32,7 +32,7 @@ const Dashboard = () => {
           <Grid  item lg={12} md={12} xl={12} xs={12} >
             <FiscalYear />
           </Grid>
-          <Grid item lg={6} sm={6}  xl={3} xs={12} >
+          <Grid item lg={6} sm={12}  xl={6} xs={12} >
             <Donut />
           </Grid>
           <Grid item lg={3} sm={6} xl={3} xs={12} >

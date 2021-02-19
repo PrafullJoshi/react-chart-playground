@@ -110,7 +110,7 @@ const Donut = ({ className, ...rest }) => {
       <CardContent >
         <div className={classes.root}>
           <Grid container spacing={1}>
-            <Grid container item xs={12} spacing={1}>
+            <Grid container item  lg={12}  xs={12} spacing={1}>
               <FormRow />
             </Grid>
           </Grid>
